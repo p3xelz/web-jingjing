@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-white--:#fff;
+    --background-gray--:#555;
+    --color-text-white--:#fff;
+}
+/* ===============NAV================= */
+.navigation{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: var(--background-white--);
+    border: solid 1px #000;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_list{
+    display: flex;
+}
+.list a{
+    padding: 0 10px;
+}
+.list a , .menu li{
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+/* ==============NAV================ */
+/* =============HEADER============== */
+/* =============HEADER============== */
+/* =========INTRO TEXT AREA======== */
+.Intro_container{
+    align-content: center;
+    width: 100%;
+    background: var(--background-gray--);
+    color: #fff;
+}
+.intro_head{
+    text-align: center;
+}
+.intro_title{
+    margin: auto;
+    max-width: 1100px;
+    text-align: center;
+}
+/* =========INTRO TEXT AREA======== */
+/* ========CONTENT AREA=========== */
+.content_container{
+    width: 100%;
+    background:var(--background-white--);
+    text-align: center;
+    align-content: center;
+}
+.column_product{
+    margin: auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.card_product img{
+    width: 400px;
+    height: 400px;
+}
+/* ========CONTENT AREA=========== */
+/* ========CONTENT AREA 2 =========== */
+.column_client{
+    margin: auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.client_product img{
+    width: 100px;
+    height: 100px;
+}
+/* ========CONTENT AREA 2 =========== */
+/* ========CONTACT AREA =========== */
+.contact_main{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    border: solid #000 1px;
+}
+.column_contact1{
+    align-content: center;
+    border: #000 1px solid;
+}
+.icons a , .icons li{
+    text-decoration: none;
+    list-style: none;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icon {
+    padding: 20px;
+}
+.icon i {
+    font-size: 30px;
+}
+.icon p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+.icon h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.column_contact2{
+    width: 100%;
+    border: #000 1px solid;
+}
+/* ========CONTACT AREA =========== */
