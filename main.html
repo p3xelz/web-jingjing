@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,46 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
 </head>
+
 <body>
     <!-- ==============NAV============= -->
-        <nav class="navigation">
+    <nav class="navigation">
+        <div class="container_nav">
             <div class="container_logo">
                 RICCO 65
             </div>
             <div class="menu">
                 <ul class="menu_list">
-                    <li class="list"><a href="#">HOME</a></li>
-                    <li class="list"><a href="#">ABOUT US</a></li>
-                    <li class="list"><a href="#">OUR WORK</a></li>
+                    <li class="list"><a href="main.html">HOME</a></li>
+                    <li class="list"><a href="Aboutus.html">ABOUT US</a></li>
+                    <li class="list dropdown">
+                        <a href="OurWork.html">OUR WORK<i class="ri-arrow-down-s-fill"></i></a>
+                        <div class="dropdown_content_ourwork">
+                            <ul>
+                                <li>Interior / Launch zone</li>
+                                <li>Media</li>
+                                <li>Signage</li>
+                                <li>Display</li>
+                            </ul>
+                        </div>
+                    </li>
+
                     <li class="list"><a href="#">CONTACT</a></li>
-                    <li class="list"><a href="#">TH</a></li>
+                    <li class="list dropdown">
+                        <a href="#">TH<i class="ri-arrow-down-s-fill"></i></a>
+                        <div class="dropdown_content_ourwork">
+                            <ul>
+                                <li>EN</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hamberger">
+                    <li><a href=""><i class="ri-menu-line"></a></i></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     <!-- ==============NAV============= -->
 
 
@@ -30,9 +55,39 @@
 
 
     <!-- ============HEADER============ -->
-     <header>
-
-     </header>
+    <div class="header">
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="/images/Artboard 1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="/images/Artboard 1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="/images/Artboard 1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="/images/Artboard 1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="/images/Artboard 1.jpg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev">
+                    < </button>
+                        <button id="next"> > </button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
     <!-- ============HEADER============ -->
 
 
@@ -40,16 +95,27 @@
 
 
     <!-- =======INTRO TEXT AREA======== -->
-     <div class="Intro_container">
+    <div class="Intro_container">
         <div class="intro_head">
             <h1>RICCO65</h1>
         </div>
         <div class="intro_title">
-            <p>บริษัท ริคโค่65 จำกัด มีความภาคภูมิใจในการแนะนำตัวในฐานะทีมงานมืออาชีพที่มีประสบการณ์ พร้อมมุ่งมั่นในการส่งมอบผลงานคุณภาพสูงและบริการที่เป็นเลิศ ด้วยพื้นฐานที่มั่นคงจากทรัพยากรที่มีทักษะและความรู้เชิงลึก เรามั่นใจในความสามารถที่จะตอบสนองความต้องการของโครงการหลากหลายรูปแบบ พร้อมการันตีคุณภาพและความพึงพอใจ
-                  เราตระหนักถึงความต้องการเฉพาะของธุรกิจที่ดำเนินกิจกรรมทั้งด้าน Below-the-line และ Above-the-line และมุ่งมั่นที่จะเปลี่ยนแนวคิดของคุณให้กลายเป็นผลงานที่ใช้ได้จริงและมีประสิทธิภาพ ไม่ว่าจะเป็นงานตกแต่ง งานแสดงสินค้า ป้ายโฆษณา บริการเช่า การบำรุงรักษา หรือการออกแบบพื้นที่ ทีมงานของเราพร้อมที่จะทำให้วิสัยทัศน์ของคุณเป็นจริง
-                  นสภาวะเศรษฐกิจที่ท้าทายในปัจจุบัน ซึ่งความคุ้มค่าเป็นสิ่งสำคัญยิ่ง เราพร้อมสนับสนุนธุรกิจของคุณด้วยข้อเสนอที่สามารถแข่งขันได้สูง ภายใต้สโลแกนของบริษัท “On the Journey from Good to Great” ริคโค่65 พร้อมเป็นพันธมิตรที่คุณไว้วางใจในการก้าวสู่ความเป็นเลิศ</p>
+            <p>บริษัท ริคโค่65 จำกัด มีความภาคภูมิใจในการแนะนำตัวในฐานะทีมงานมืออาชีพที่มีประสบการณ์
+                พร้อมมุ่งมั่นในการส่งมอบผลงานคุณภาพสูงและบริการที่เป็นเลิศ
+                ด้วยพื้นฐานที่มั่นคงจากทรัพยากรที่มีทักษะและความรู้เชิงลึก
+                เรามั่นใจในความสามารถที่จะตอบสนองความต้องการของโครงการหลากหลายรูปแบบ พร้อมการันตีคุณภาพและความพึงพอใจ
+                เราตระหนักถึงความต้องการเฉพาะของธุรกิจที่ดำเนินกิจกรรมทั้งด้าน Below-the-line และ Above-the-line
+                และมุ่งมั่นที่จะเปลี่ยนแนวคิดของคุณให้กลายเป็นผลงานที่ใช้ได้จริงและมีประสิทธิภาพ ไม่ว่าจะเป็นงานตกแต่ง
+                งานแสดงสินค้า ป้ายโฆษณา บริการเช่า การบำรุงรักษา หรือการออกแบบพื้นที่
+                ทีมงานของเราพร้อมที่จะทำให้วิสัยทัศน์ของคุณเป็นจริง
+                นสภาวะเศรษฐกิจที่ท้าทายในปัจจุบัน ซึ่งความคุ้มค่าเป็นสิ่งสำคัญยิ่ง
+                เราพร้อมสนับสนุนธุรกิจของคุณด้วยข้อเสนอที่สามารถแข่งขันได้สูง ภายใต้สโลแกนของบริษัท “On the Journey from
+                Good to Great” ริคโค่65 พร้อมเป็นพันธมิตรที่คุณไว้วางใจในการก้าวสู่ความเป็นเลิศ</p>
         </div>
-     </div>
+        <div class="title_line">
+            <div class="line"></div>
+        </div>
+    </div>
     <!-- =======INTRO TEXT AREA======== -->
 
 
@@ -57,56 +123,52 @@
 
 
     <!-- =========CONTENT AREA========= -->
-     <div class="content_container">
+    <div class="content_container1">
         <div class="content_head">
             <h1 class="head_content">Our Work</h1>
-            <p class="title_content"></p>
+            <p class="title_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, placeat.</p>
         </div>
         <div class="column_product">
-            <div class="card_product card1">
-                <!-- =============================== INTERIOR / LAUNCH ==================================== -->
-                <a href="#"><img src="/images/272880156_359297592687820_8609939986345925716_n.jpeg"></a>
-                <!-- =============================== INTERIOR / LAUNCH ==================================== -->
-                <div class="title_card">
-                    <p>Lorem, ipsum.</p>
+            <a href="">
+                <div class="container_image">
+                    <img src="interior/ (19).jpg" alt="Avatar" class="image">
+                    <div class="overlay"></div>
+                    <div class="text">Interior / Launch Zone</div>
                 </div>
-            </div>
-            <div class="card_product card2">
-                <!-- ================================== MEDIA ======================================== -->
-                <a href="#"><img src="/images/272880156_359297592687820_8609939986345925716_n.jpeg"></a>
-                <!-- ================================== MEDIA ======================================== -->
-                <div class="title_card">
-                    <p>Lorem, ipsum.</p>
+            </a>
+            <a href="">
+                <div class="container_image">
+                    <img src="media/(3).jpg" alt="Avatar" class="image">
+                    <div class="overlay"></div>
+                    <div class="text">Media</div>
                 </div>
-            </div>
-            <div class="card_product card3">
-                <!-- ================================== SIGNAGE ======================================== -->
-                <a href="#"><img src="/images/272880156_359297592687820_8609939986345925716_n.jpeg"></a>
-                <!-- ================================== SIGNAGE ======================================== -->
-                <div class="title_card">
-                    <p>Lorem, ipsum.</p>
+            </a>
+            <a href="">
+                <div class="container_image">
+                    <img src="/signage/(11).jpg" alt="Avatar" class="image">
+                    <div class="overlay"></div>
+                    <div class="text">Signage</div>
                 </div>
-            </div>
-            <div class="card_product card4">
-                <!-- ================================== DISPLAY ======================================== -->
-                <a href="#"><img src="/images/272880156_359297592687820_8609939986345925716_n.jpeg"></a>
-                <!-- ================================== DISPLAY ======================================== -->
-                <div class="title_card">
-                    <p>Lorem, ipsum.</p>
+            </a>
+            <a href="">
+                <div class="container_image">
+                    <img src="/display/แนวตั้ง/แนวตั้ง (15).jpg" alt="Avatar" class="image">
+                    <div class="overlay"></div>
+                    <div class="text">Display</div>
                 </div>
-            </div>
+            </a>
         </div>
         <button class="btn_other_product">
-            <p>ดูทั้งหมด</p>
+            <a href="OurWork.html"><p>ดูทั้งหมด</p></a>    
         </button>
-     </div>
+    </div>
     <!-- =========CONTENT AREA========= -->
 
 
 
 
     <!-- ======== CONTENT AREA 2 =========-->
-     <div class="content_container">
+    <div class="content_container2">
         <div class="content_head">
             <h1 class="head_content">Our Client</h1>
             <p class="title_content"></p>
@@ -143,7 +205,7 @@
                 <img src="/images/M_gainfriends_qr.png" alt="">
             </div>
         </div>
-     </div>
+    </div>
     <!-- ======== CONTENT AREA 2 =========-->
 
 
@@ -151,7 +213,7 @@
 
 
     <!-- ======== CONTACT AREA =========-->
-     <div class="contact_container">
+    <div class="content_container1">
         <div class="contact_main">
             <div class="column_contact1">
                 <div class="head_contact">
@@ -177,7 +239,7 @@
                             <h1>Line</h1>
                             <i class="ri-line-fill"></i>
                             <p>@250svsio</p>
-                        <!-- ================= LINE ==================== -->
+                            <!-- ================= LINE ==================== -->
                         </a>
                     </li>
                     <li class="icon">
@@ -186,7 +248,7 @@
                             <h1>Youtube</h1>
                             <i class="ri-youtube-fill"></i>
                             <p>RICCO65</p>
-                        <!-- ================= YOUTUBE ==================== -->
+                            <!-- ================= YOUTUBE ==================== -->
                         </a>
                     </li>
                     <li class="icon">
@@ -210,7 +272,7 @@
                 </div>
             </div>
         </div>
-     </div>
+    </div>
     <!-- ======== CONTACT AREA =========-->
 
 
@@ -218,9 +280,62 @@
 
 
     <!-- ======== FOOTER AREA =========-->
-     <footer>
-        
-     </footer>
+    <footer>
+            <div class="container-footer">
+               <div class="sec aboutus">
+                  <h2>About Us</h2>
+                  <p class="title_about_footer">บริษัท ริคโค่65 จำกัด ให้บริการอย่างมืออาชีพในด้านงานตกแต่ง งานแสดงสินค้า ป้ายโฆษณา บริการเช่า และการออกแบบพื้นที่ ด้วยประสบการณ์และความเชี่ยวชาญเชิงปฏิบัติ เราส่งมอบผลงานคุณภาพในราคาคุ้มค่า ตามสโลแกนของเรา “On the Journey from Good to Great”</p>
+                  <ul class="sci">
+                     <li><a href="https://www.facebook.com/RiccoSixtyFive/" target="_blank"><i class="ri-facebook-circle-fill"></i></a></li>
+                     <li><a href="https://qr-official.line.me/gs/M_250svsio_GW.png?oat_content=qr" target="_blank"><i class="ri-line-fill line_icon"></i></a></li>
+                     <li><a href="https://www.youtube.com/@ricco655"><i class="ri-youtube-fill"></i></a></li>
+                     <li><a href="https://www.tiktok.com/@wearericco65?_t=ZS-8xF0Kiu9v5r&_r=1" target="_blank"><i class="ri-tiktok-fill"></i></a></li>
+                  </ul>
+               </div>
+               <div class="sec quicklink">
+                  <h2>เมนู</h2>
+                     <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="Aboutus.html">About us</a></li>
+                        <li><a href="OurWork.html">Our Work</a></li>
+                        <li><a href="">Contact Us</a></li>
+                     </ul>
+               </div>
+               <div class="sec quicklink">
+                  <h2>งานของพวกเรา</h2>
+                     <ul>
+                        <li><a href="">Interior / Launch Zone</a></li>
+                        <li><a href="">Media</a></li>
+                        <li><a href="">Signage</a></li>
+                        <li><a href="">Display</a></li>
+                     </ul>
+               </div>
+               <div class="sec quicklink">
+                  <h2>ติดต่อเรา</h2>
+                     <ul class="info_foot">
+                        <li>
+                           <span><i class="ri-phone-fill"></i></span><a href="tel:083-461-4156">+6683 461 4156</a>
+                        </li>
+                        <li>
+                           <span><i class="ri-mail-fill"></i></span><a href="mailto:sutassanee.p@Ricco65.com">ricco65ad2@gmail.com</a>
+                        </li>
+                     </ul>
+               </div>
+               
+            </div>
+            <div class="copyrightText">
+               <p>&copy;2025 RICCO65 COMPANY LIMITED.</p>
+         </div>
+        </footer>
     <!-- ======== FOOTER AREA =========-->
+
+
+
+
+
+    <!-- ======== SCRIPT AREA =========-->
+    <script src="/app.js"></script>
+    <!-- ======== SCRIPT AREA =========-->
 </body>
+
 </html>
